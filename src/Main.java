@@ -87,6 +87,13 @@ public class Main {
     }
     public static void task8 () {
         System.out.println("Задача 8");
-
+        var time = 640;
+        var workingTime = 8;
+        var workers = time / workingTime;
+        System.out.println("Всего работников в компании — " + workers + " человек");
+        var moreWorkers = 94;
+        var thenWorkers = workers + moreWorkers;
+        var thenHoursPerWorker = time / thenWorkers;
+        System.out.println("Если в компании работает " + thenWorkers + " человек, то всего " + thenHoursPerWorker + " часов работы может быть поделено между сотрудниками");
     }
 }
